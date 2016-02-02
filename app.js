@@ -1,7 +1,7 @@
-var express 	= require('express')
-	exphbs		= require('express-handlebars')
-	router 		= express.Router()
-	indexRoute 	= require('./routes/index.js');
+var express     = require('express')
+    express     = require('express-handlebars')
+    router      = express.Router()
+    indexRoute  = require('./routes/index.js');
 var app = express();
 
 app.engine('handlebars', exphbs({defaultLayout: 'base'}));
